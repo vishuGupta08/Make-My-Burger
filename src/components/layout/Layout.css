@@ -1,3 +1,10 @@
 .Content{
     margin-top: 72px
 }
+.Footer{
+    background-color: burlywood;
+    font-weight: 200;
+    font-size: 100%;
+    padding-left: 100px;
+    text-decoration: none;
+}

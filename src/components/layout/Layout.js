@@ -24,6 +24,8 @@ class Layout extends Component {
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
+                <footer className={classes.Footer}><b>Made by <a href="https://www.linkedin.com/in/vishu-gupta108" target="_blank"
+                    rel="noopener noreferrer">Vishu Gupta </a> &copy; </b></footer>
             </Aux>
         )
     }
