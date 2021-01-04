@@ -9,6 +9,7 @@
     display: block;
     font: inherit;
     padding: 0 5px;
+    margin-right: 10px;
     width: 80px;
     border: 1px solid #AA6817;
     cursor: pointer;
