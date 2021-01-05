@@ -2,9 +2,12 @@
     margin-top: 72px
 }
 .Footer{
+    height: 40px;
     background-color: burlywood;
     font-weight: 200;
-    font-size: 100%;
+    font-size: 120%;
+    min-height: 100%;
     padding-left: 100px;
-    text-decoration: none;
-}
+    text-decoration:none;
+    
+    }
