@@ -6,7 +6,7 @@ import axios from '../../axios-orders'
 import Spinner from '../../components/UI/Spinner/Spinner'
 import Modal from '../../components/UI/Modal/Modal'
 import Aux from '../../hoc/auxi'
-import img from '../../../../burger/src/assets/images/5aa78e207603fc558cffbf19.png'
+import img from '../../assets/images/5aa78e207603fc558cffbf19.png'
 
 class ContactData extends Component {
 
