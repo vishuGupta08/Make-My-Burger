@@ -1,10 +1,10 @@
 .Order{
-    width: 80%;
+    width: 85%;
     height: 130px;
     border: 1px solid #ccc;
     box-sizing: border-box ;
     box-shadow: 0 2px 3px #ccc;
-    margin: 15px auto;
+    margin: 12px auto;
     border-radius: 10px;
     background-color: blanchedalmond;
     display:flex;
@@ -18,10 +18,7 @@
 }
 
 .Burger{
-   margin-left: 50px;
     transform: scale(0.45);
-    
-
 }
 
 
