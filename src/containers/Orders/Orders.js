@@ -29,7 +29,7 @@ class Orders extends Component {
     render() {
         return (
             <div>
-                <div>  <h2 style={{ textAlign: 'center', border: '2px solid lightblue', boxSizing: 'border-box' }}>Your Orders</h2> </div>
+                <div>  <h2 style={{ textAlign: 'center', border: '2px solid lightblue', backgroundColor: 'lightblue', boxSizing: 'border-box' }}>Your Orders</h2> </div>
                 <div>
 
                     {this.state.orders.map(order => (
