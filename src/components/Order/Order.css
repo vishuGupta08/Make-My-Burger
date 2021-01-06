@@ -1,21 +1,28 @@
 .Order{
     width: 80%;
-    height: 100px;
+    height: 130px;
     border: 1px solid #ccc;
     box-sizing: border-box ;
     box-shadow: 0 2px 3px #ccc;
-    margin: 10px auto;
+    margin: 15px auto;
     border-radius: 10px;
     background-color: blanchedalmond;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     z-index: 100;
+    align-items:center
 }
 
 .Data{
     margin-left: 20px;
 }
 
+.Burger{
+   margin-left: 50px;
+    transform: scale(0.45);
+    
+
+}
 
 
 .Logo{
