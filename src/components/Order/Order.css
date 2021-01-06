@@ -10,7 +10,7 @@
     display:flex;
     justify-content:space-between;
     z-index: 100;
-    align-items:center
+    align-items:center;
 }
 
 .Data{
@@ -19,6 +19,7 @@
 
 .Burger{
     transform: scale(0.45);
+ 
 }
 
 
@@ -26,4 +27,12 @@
 
     height: 80%;
 
+}
+
+@media(min-width: 200px){
+    .Order{
+        width: 97%;    
+    }
+    
+    
 }
