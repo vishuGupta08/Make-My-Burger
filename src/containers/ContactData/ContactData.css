@@ -1,7 +1,7 @@
 .ContactData {
    background: rgb(250, 209, 120);
     margin: 20px auto;
-    width: 80%;
+    width: 100%;
     text-align: center;
     box-shadow: 0 10px 12px #ccc;
     box-sizing: border-box;
@@ -9,28 +9,24 @@
 }
 
 .Input {
-    display: block;
-    margin-bottom: 5px;
-    box-sizing: border-box;
-padding: 10px;
+    margin-bottom: 8px;
+  box-sizing: border-box;
+padding: 8px 10px;
 box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 border-radius:10px;
-width: 100%;
-
+width: 65%;
 }
-.FormAlign {
-text-align: center;
 
+.Button {
+    display: block;
 }
 
 .Form {
     display: inline-block;
- 
-
 }
 
 @media (min-width: 600px) {
     .ContactData {
-        width: 500px;
+        width: 400px;
     }
 }

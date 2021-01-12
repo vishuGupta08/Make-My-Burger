@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './Order.css'
-import Logo from '../Logo/Logo'
 import Burger from '../Burger/Burger'
 const order = (props) => {
 
@@ -11,14 +10,13 @@ const order = (props) => {
                 name: ingredientName,
                 amount: props.ingredients[ingredientName]
             }
-
         )
     }
 
 
     const ingredientOutput = ingredients.map(ig => {
-        return <span>
-            {ig.name} ({ig.amount})
+        return <span style={{ textTransform: 'capitalize', border: '1px solid grey', margin: '3px', padding: '1px 2px' }} key={ig.name}>
+            {ig.name}- {ig.amount}
         </span>
     })
 
@@ -28,10 +26,10 @@ const order = (props) => {
                 <p className={classes.Data}>Ingredients:<strong>{ingredientOutput} </strong> </p>
                 <p className={classes.Data}> Price: <strong>Rs. {props.price}</strong></p>
             </div>
-            <div className={classes.Burger}>
+            <div className={classes.Burger} >
                 <Burger ingredients={props.ingredients} />
             </div>
-            {/* <Logo /> */}
+
         </div >
     )
 
