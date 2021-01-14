@@ -5,8 +5,8 @@
     outline: none;
     cursor: pointer;
     font: inherit;
-    padding: 10px;
-    margin: 10px;
+    padding: 3px;
+    margin: 2px;
     font-weight: bold;
 }
 
@@ -21,4 +21,8 @@
 
 .Danger {
     color: #944317;
+}
+
+.Info {
+    color: #0019a5;
 }

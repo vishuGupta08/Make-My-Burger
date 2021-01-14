@@ -17,6 +17,11 @@ border-radius:10px;
 width: 65%;
 }
 
+.Modal{
+    width: 70px;
+    display: block;
+}
+
 .Button {
     display: block;
 }

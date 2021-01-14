@@ -1,0 +1,28 @@
+.Form{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: 1px solid pink;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px grey;
+    background-color: rgb(230, 248, 229);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.Button{
+ display:block;  
+}
+
+.Error{
+    background-color: crimson;
+    
+}
+
+@media(max-width: 800px){
+    .Form{
+        width: 75%;
+    }
+    
+}
